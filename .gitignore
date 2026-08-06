@@ -1,0 +1,52 @@
+# Build output
+build/
+Build/
+Debug/
+Release/
+Objects/
+Listings/
+Output/
+bin/
+obj/
+
+# Object and binary files
+*.o
+*.obj
+*.d
+*.dep
+*.crf
+*.lst
+*.map
+*.elf
+*.axf
+*.hex
+*.bin
+*.srec
+*.dis
+*.su
+*.bak
+*.tmp
+
+# Keil MDK user/debug files
+*.uvguix.*
+*.uvoptx
+*.uvgui.*
+JLinkLog.txt
+JLinkSettings.ini
+EventRecorderStub.scvd
+*.scvd
+
+# STM32CubeIDE / Eclipse temporary files
+.metadata/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local private config
+User/config.h
+Core/Inc/config.h
+config.h
+secrets.h
